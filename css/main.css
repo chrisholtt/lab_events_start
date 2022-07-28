@@ -1,0 +1,76 @@
+body {
+  font-family: Palatino;
+  margin: 20px 20px;
+}
+
+
+#form-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+#form-wrapper div{
+  padding-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.new-entry{
+  padding: 10px;
+  width: auto;
+  height: 20%;
+  background: chocolate;
+  border: 2px solid black ;
+  border-radius: 5px;
+  box-shadow: 5px 5px #888888;
+  margin: 10px 10px;
+}
+
+#reading-list {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+}
+
+.spin:hover {
+  display: flex;
+  flex-direction: column;
+  transform: rotate3d(1, 1, 1, 360deg);
+  transition: 2s ease all;
+}
+
+#button {
+  margin: 10px;
+}
+
+
+.red {
+  color: red;
+}
+.orange {
+  color: orange;
+}
+.yellow {
+  color: yellow;
+}
+.green {
+  color: green;
+}
+.blue {
+  color: blue;
+}
+.purple {
+  color: purple;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
